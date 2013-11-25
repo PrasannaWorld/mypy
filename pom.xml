@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.emc.srm.build</groupId>
+    <artifactId>srm-parent</artifactId>
+    <version>2.1.0.0.0-SNAPSHOT</version>
+  </parent>
+  <groupId>com.emc.srm.base.discovery</groupId>
+  <artifactId>discovery</artifactId>
+  <name>Prosphere Discovery</name>
+  <packaging>pom</packaging>
+  <modules>
+    <module>cache-model</module>
+    <module>task-status</module>
+    <module>model-runtime</module>
+    <module>rdf-transformer</module>
+    <module>hbo-collection-representation</module>
+    <module>populator</module>
+    <module>rest-server</module>
+    <module>preprocessor</module>
+    <module>transformer</module>
+    <module>discovery-payload</module>
+    <module>tag-generator</module>
+  </modules>
+</project>
